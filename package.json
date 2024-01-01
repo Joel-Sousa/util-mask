@@ -1,0 +1,33 @@
+{
+  "name": "util-mask",
+  "version": "1.0.0",
+  "description": "A library with treatment for several masks.",
+  "main": "index.ts",
+  "scripts": {
+    "deploy": "npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joel-Sousa/util-mask.git"
+  },
+  "keywords": [
+    "react",
+    "npm",
+    "mask",
+    "mascara",
+    "mascaras",
+    "util",
+    "utilitarios",
+    "mask util",
+    "mask utils",
+    "cpf",
+    "date",
+    "phone",
+    "number",
+    "cnpj",
+    "decimal",
+    "currency"
+  ],
+  "author": "Joel-Sousa",
+  "license": "ISC"
+}
