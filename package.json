@@ -1,6 +1,6 @@
 {
   "name": "util-mask",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A library with treatment for several masks.",
   "main": "index.ts",
   "scripts": {
