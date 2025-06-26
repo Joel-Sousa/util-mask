@@ -143,6 +143,24 @@ export function unCepMask(cep) {
             .replace('-', '');
 }
 
+export function dateBrMask(data) {
+    data = data.replace(/\D/g, '');
+
+    if (data.length <= 2) {
+        return data;
+    }
+
+    if (data.length <= 4) {
+        return `${data.substring(0, 2)}/${data.substring(2)}`;
+    }
+
+    if (data.length <= 8) {
+        return `${data.substring(0, 2)}/${data.substring(2, 4)}/${data.substring(4)}`;
+    }
+
+    return `${data.substring(0, 2)}/${data.substring(2, 4)}/${data.substring(4, 8)}`;
+}
+
 export function dateUsBrMask(data) {
     data = data.replace(/\D/g, '');
 

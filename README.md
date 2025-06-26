@@ -23,6 +23,7 @@ npm install util-mask --save
 - [unPhoneMask(phone: string)](#un-phone-mask)
 - [cepMask(cep: string)](#cep-mask)
 - [unCepMask(cep: string)](#un-cep-mask)
+- [dateBrMask(date: string)](#date-br-mask)
 - [dateUsBrMask(date: string)](#date-us-br-mask)
 - [dateBrUsMask(date: string)](#date-br-us-mask)
 - [decimalNumberMask(number: string)](#decimal-number-mask)
@@ -117,6 +118,11 @@ console.log(cepMask('11111222'));  // Output: 11111-222
 #### Un Cep Mask
 ```javascript
 console.log(unCepMask('11111-222'));  // Output: 11111222
+```
+
+#### Date Br Mask
+```javascript
+console.log(dateBrMask('11112020'));  // Output: 11/11/2020
 ```
 
 #### Date Us Br Mask
